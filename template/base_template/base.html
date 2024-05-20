@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+    <head>
+        {% include './head.html' %}
+        
+    </head>
+    <body>
+        {% block content %} {% endblock %}
+        {% include './footer.html' %}
+
+
+        <!-- jQuery JS -->
+        <script src="{% static 'js/jquery-1.12.0.min.js' %}"></script>
+        <!-- Bootstrap JS -->
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    
+        <!-- Animate JS -->
+        <script src="{% static 'vendors/animate/wow.min.js' %}"></script>
+        <!-- Owlcarousel JS -->
+        <script src="{% static 'vendors/owl_carousel/owl.carousel.min.js' %}"></script>
+        <!-- Stellar JS -->
+        <!-- Theme JS -->
+        <script src="{% static 'js/theme.min.js' %}"></script>
+        <script type="text/javascript"></script>
+        
+    </body>
+</html>
